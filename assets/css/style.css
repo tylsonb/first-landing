@@ -1,0 +1,82 @@
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  } 
+
+.header {
+    text-align: right;
+    background-image: url(../imgs/hero.jpeg) ;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 6.25rem 3.125rem;
+    background-repeat: no-repeat;
+    }
+
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+      
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+
+.card{
+    
+    width: 350px;
+    margin: 80px auto;
+    box-shadow: 0 0 3px;
+    border-radius: 1em;
+    
+}
+
+.card-img{
+    width: 100%;
+    display:block;
+    border-radius: 1em  1em 0;
+}
+
+.card-container{
+
+    padding: 30px 15px;
+    text-align: center;
+    
+}
+
+.card-title{
+    margin-bottom:10px
+}
+
+.card-paragraph{
+    line-height: 1.5;   
+    text-align: start;
+}
+
+.card-button {
+    display: inline-block;
+    background-color:#cc021c;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin-top:1em;
+    border-radius: 2em;
+}
+
+
+.section, footer {
+    margin-top: 4.5rem;
+    background-color: black;
+    color:#ffffff;
+    padding: 3.125rem;   
+}
+
+.footer p {
+    font-size: 1.2em;
+
+}
